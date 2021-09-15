@@ -1,0 +1,89 @@
+* {
+    background-color:rgb(187, 187, 187);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:center;
+}
+
+
+header {
+    background-color:rgb(221, 221, 221);
+    position: fixed;
+    margin-left: 37%;
+    display: block;
+    z-index: 20;
+}
+
+
+.biggerText {
+    color:rgb(97, 33, 45);
+    border: 100px cornflowerblue;
+    position: static;
+    display:block;
+}
+
+img {
+    position:relative;
+    left: -10px;
+}
+
+section {
+    background-color: rgb(107, 107, 107);
+    position: relative;
+    top: 100px;
+    display:block;
+    
+}
+
+article {
+    position:relative;
+}
+
+.myLinks {
+    display:inline;
+}
+
+#link1 {
+    background-color: rgb(0, 0, 0);
+}
+
+#link2 {
+    background-color: rgb(0, 0, 0);
+}
+
+h2 {
+    position: relative;
+    display:block;
+}
+
+#termsAndConditions {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+    text-align:center;
+    border-left: 20px;
+    border-right: 20px;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+p {
+    color: rgb(60, 199, 60);
+    background-color: black;
+    position: relative;
+    display:block;
+}
+
+
+form {
+    background-color: rgb(255, 255, 255);
+    color: rgb(201, 55, 55);
+    position: relative;
+    padding-left: 20%;
+    padding-top: 50px;
+    margin-bottom: 250px;
+}
+
+footer {
+    position: fixed;
+    left: 50%;
+    bottom:20px;
+    z-index: 19;
+}
